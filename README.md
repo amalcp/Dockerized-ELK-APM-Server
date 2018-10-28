@@ -1,3 +1,8 @@
+
+<p align="center"> 
+<img src="./imgs/docket_ELK.png">
+</p>
+
 # Docker ELK-APM stack
 
 [![Elastic Stack version](https://img.shields.io/badge/ELK-6.2.3-blue.svg?style=flat)](://github.com/amalcp/Dockerized-ELK-APM-Server/issues)
