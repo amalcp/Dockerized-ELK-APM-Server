@@ -5,7 +5,7 @@
 
 # Docker ELK-APM stack
 
-[![Elastic Stack version](https://img.shields.io/badge/ELK-7.6.1-blue.svg?style=flat)](://github.com/amalcp/Dockerized-ELK-APM-Server/issues)
+[![Elastic Stack version](https://img.shields.io/badge/ELK-7.6.1-blue.svg?style=flat)](://github.com/0xb4lamx/Dockerized-ELK-APM-Server/issues)
 
 Run the latest version of the ELK - APM (Elasticsearch, Logstash, Kibana, APM) stack with Docker and Docker Compose.
 
