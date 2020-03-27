@@ -5,3 +5,6 @@
 server.name: kibana
 server.host: "0"
 elasticsearch.hosts: [ "http://elasticsearch:9200" ]
+# with https://www.elastic.co/guide/en/kibana/current/monitoring-settings-kb.html#monitoring-ui-cgroup-settings
+xpack.monitoring.ui.container.elasticsearch.enabled: true
+xpack.monitoring.ui.container.logstash.enabled: true
