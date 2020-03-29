@@ -1,7 +1,10 @@
 ---
 ## Default Kibana configuration from kibana-docker.
-## from https://github.com/elastic/kibana-docker/blob/master/build/kibana/config/kibana.yml
+## from https://github.com/elastic/dockerfiles/blob/7.6/kibana/config/kibana.yml
 #
 server.name: kibana
 server.host: "0"
-elasticsearch.url: http://elasticsearch:9200
+elasticsearch.hosts: [ "http://elasticsearch:9200" ]
+# with https://www.elastic.co/guide/en/kibana/current/monitoring-settings-kb.html#monitoring-ui-cgroup-settings
+xpack.monitoring.ui.container.elasticsearch.enabled: true
+xpack.monitoring.ui.container.logstash.enabled: true
